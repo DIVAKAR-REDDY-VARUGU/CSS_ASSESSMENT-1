@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+a{ text-decoration: none; }
+header{ 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.logo img{
+    padding: 0% 20px;
+    width: 150px;
+}
+.toolbar a{
+    font-weight: 500;
+    margin: 0px 20px; 
+    color: rgba(119, 118, 118, 0.856);  
+}
+.your-account{
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color:#fad1d5 ;
+}
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{ display: flex; }
+
+.content-section{ width: 45%; }
+
+.art1{
+   padding: 10px 20px;
+   margin: 0px 0px 0px 15%;
+   
+}
+.art1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.art1 h1 span{
+    border: 1px solid;
+    font-size:5px ;
+    font-weight: 900;
+    background-color: blueviolet;
+    color: blueviolet;
+}
+.art1 p{
+    font-weight: 300;
+    color: rgba(119, 118, 118, 0.856);
+}
+.toolbar-inside{
+    display: flex;
+    align-items: center;
+}
+.new-account{
+    border: .2px solid;
+    border-radius: 25px;
+    font-weight: 600;
+    display: inline;
+    padding: 15px 20px;
+    background-color:  #8576f8;
+}
+
+.arrow-up,.arrow-down{ margin: 0 10px; }
+
+.arrow-up img,.arrow-down img{
+    width: 40px;
+    height: 45px;
+}
+.art2{
+    padding: 10px 20px;
+    margin-left: 15%;
+}
+
+.landing-img img{
+    height: 80vh;
+    padding: 10px 40px;
+}
+.topic-detailes{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0px;
+    align-items: center;
+    background-color: rgba(226, 226, 226, 0.856);
+    border-radius: 5px;
+}
+.profile-group{
+    display: flex;
+    align-items: center;
+}
+
+.topic-detailes i{ padding: 10px 5px 15px 10px; }
+
+.fa-check-circle{
+   margin-right: 3px;
+    font-size: 16px ;
+    color: rgba(110, 107, 107, 0.856);
+}
+
+.profile-icon{ margin: 0px 10px; }
+
+.profile-icon img{ width: 25px; }
+
+.topic-date{
+    color: rgba(119, 118, 118, 0.856);
+}
+.space-color1,.space-color2,.space-color3,.space-color4{
+    width: 15px;
+    height: 8px;
+    border-radius: 4px;
+    align-items: center;
+    margin:0 8px ;
+}
+
+.space-color1{ background-color: #FED7DA;}
+.space-color2{ background-color: #FD6534;}
+.space-color3{ background-color: #9ED095;}
+.space-color4{ background-color: #FFE4A0;}
+
+.toolbar a:hover{
+    color: black;
+    border-bottom:4px solid #8071D0;
+}
+.your-account:hover{
+    background-color:#fab9bf ;
+
+
+}
+.your-account:hover a{
+        color: #5243C0;
+}
+.new-account:hover{
+    background-color:  #5243C0;
+    color: #ffffff;
+}
+.arrow-down img:hover,.arrow-up img:hover{
+    box-shadow: 0 0 1px;
+    border-radius: 15px;
+}
+.topic-detailes:hover{
+    box-shadow: 0 0 5px;
+    background-color: white;
+}
+
+
+.topic-detailes:hover .fa-check-circle{
+    color: #5243C0;
+    font-weight: 900;
+}
